@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>favico</title>
+    <g id="favico" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M1,0 L15,0 L15,9 C15,12.8659932 11.8659932,16 8,16 C4.13400675,16 1,12.8659932 1,9 L1,0 Z" id="Rectangle" fill="#FF4019"></path>
+        <g id="Logo-/-2.-Symbol-/-2.-Corner-Raised" transform="translate(3.000000, 2.000000)">
+            <path d="M6,0 L6,2 L2,2 L2.00032294,6.84460728 C2.01208741,7.71021913 2.34553884,8.49266891 2.87867966,9.06187707 C3.42157288,9.64149738 4.17157288,10 5,10 C5.82842712,10 6.57842712,9.64149738 7.12132034,9.06187707 C7.65446116,8.49266891 7.98791259,7.71021913 7.99967706,6.84460728 L7.99967706,6.84460728 L8,6.79524386 L8,4 L10,4 L10,6.75 C10,9.64949494 7.76142375,12 5,12 C2.23857625,12 0,9.64949494 0,6.75 L0,0 L6,0 Z" id="emblema-cut-flattened" fill="#FFFFFF"></path>
+            <path d="M10,0 L10,4 L7.999,4 L8,2 L6,2 L6,0 L10,0 Z" id="corner" fill="#000000"></path>
+        </g>
+    </g>
+</svg>
