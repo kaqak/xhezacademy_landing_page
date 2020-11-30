@@ -71,43 +71,43 @@
             </div>
         </div>
         <!--**********--icons--***********-->
-        <div class="row flex justify-around mt-20">
-            <div class="one hidden lg:flex">
+        <div id="scene" class="row  mt-20">
+            <div data-depth="0.1" class="one hidden lg:flex ">
                 <img
                 src="/dist/img/word.svg"
                 alt="Photo 1"
                 class="photo-one"
               />
             </div>
-            <div class="two hidden lg:flex">
+            <div data-depth="0.1" class="two hidden lg:flex ">
                 <img
                 src="/dist/img/js.svg"
                 alt="Photo 1"
                 class="photo-two"
               />
             </div>
-            <div class="three hidden lg:flex">
+            <div data-depth="0.1" class="three hidden lg:flex">
                 <img
                 src="/dist/img/ps.svg"
                 alt="Photo 1"
                 class="photo-three"
               />
             </div>
-            <div class="four hidden lg:flex">
+            <div data-depth="0.1" class="four hidden lg:flex">
                 <img
                 src="/dist/img/sketch.svg"
                 alt="Photo 1"
                 class="photo-four"
               />
             </div>
-            <div class="five hidden lg:flex">
+            <div data-depth="0.1" class="five hidden lg:flex">
                 <img
                 src="/dist/img/css.svg"
                 alt="Photo 1"
                 class="photo-five"
               />
             </div>
-            <div class="six  hidden lg:flex">
+            <div data-depth="0.1" class="six  hidden lg:flex ">
                 <img
                 src="/dist/img/excel.svg"
                 alt="Photo 1"
@@ -161,6 +161,11 @@
         </div>
     </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script>
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene);
+</script>
 <script src="/dist/js/script.js"></script>
 </body>
 </html>
