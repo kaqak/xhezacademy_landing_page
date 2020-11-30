@@ -38,3 +38,4 @@ function updateClock(remainingTime) {
 function padNumber(number) {
   return number < 10 ? "0" + number : number;
 }
+

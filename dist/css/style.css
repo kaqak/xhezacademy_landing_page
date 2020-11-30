@@ -29122,6 +29122,16 @@ video {
   animation: bounce 1s infinite;
 }
 
+*{
+  font-family: "Inter", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .w-96{
+    width: 22rem;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -171841,5 +171851,3 @@ video {
     animation: bounce 1s infinite;
   }
 }
-
-

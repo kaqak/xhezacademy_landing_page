@@ -2,4 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  font-family: "Inter", sans-serif;
+}
 
+@media only screen and (max-width: 600px) {
+  .w-96{
+    width: 22rem;
+  }
+}
